@@ -1,0 +1,4 @@
+LoginTest,text@gmail.com,xyz.12345
+LoginTest,test.hh@gmail.com,secret_sauce
+SearchTest,laptop,electronics
+SearchTest,shoes,apparel
