@@ -38,7 +38,7 @@ public class TC_004_TextDataTest {
         driver.findElement(By.id("search-box")).sendKeys(item);
         driver.findElement(By.id("category-dropdown")).sendKeys(category);
         driver.findElement(By.id("search-button")).click();
-        // Add assertions here
+        // Add assertions here for verification
     }
     
     // Single DataProvider route managing all text file data loops
