@@ -3,6 +3,7 @@
 <suite name="Suite">
 
 <listeners>
+<listener class-name="utilities.AnnotationTransformer"></listener>
 <listener class-name="utilities.ExtentReportManager"></listener>
 </listeners>
 

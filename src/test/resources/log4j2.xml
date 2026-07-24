@@ -7,7 +7,7 @@
   </Properties>
 
 <Appenders>
-    <Console name="CONSOLE" target="SYSTEM_OUT"> 
+    <Console name="Console" target="SYSTEM_OUT"> 
       <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
     </Console>
     
@@ -23,9 +23,9 @@
   
      <Loggers>
  
-    <Root level="DEBUG"> <!-- Here we can use Log leves - Debug > Info < Warn < Error < Fetal < Off < Trace-->
-    <!--  <AppenderRef ref="Console"/>-->
-      <AppenderRef ref="File"/>
+    <Root level="debug"> <!-- Here we can use Log leves - Debug > Info < Warn < Error < Fetal < Off < Trace-->
+      <AppenderRef ref="Console"/>
+ <!-- <AppenderRef ref="File"/> -->    
     </Root>
   </Loggers>
       

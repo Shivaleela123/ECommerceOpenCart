@@ -1,22 +1,8 @@
-2026-07-14 16:00:24.446 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\WorkSpace\ECommerceOpenCart\Master.xml"
-2026-07-14 16:00:24.778 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+2026-07-21 16:24:54.481 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\WorkSpace\ECommerceOpenCart\Master.xml"
+2026-07-21 16:24:54.972 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\WorkSpace\ECommerceOpenCart\Master.xml
 
-2026-07-14 16:01:21.008 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\WorkSpace\ECommerceOpenCart\Master.xml"
-2026-07-14 16:01:21.407 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\WorkSpace\ECommerceOpenCart\Master.xml
-
-2026-07-14 16:01:26.276 [main] INFO  testCases.TC_001_AccountRegistrationTest - TC001_AccountRegistrationTest: Test case started..
-2026-07-14 16:01:29.925 [main] INFO  testCases.TC_001_AccountRegistrationTest - TC001_AccountRegistrationTest: Test case Finished..
-2026-07-14 16:01:37.182 [main] INFO  testCases.TC_002_LoginTests - TC001_LoginTestWithValidData --- started
-2026-07-14 16:01:40.403 [main] INFO  testCases.TC_002_LoginTests - TC001_LoginTestWithValidData --- finished
-2026-07-14 16:14:25.396 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\WorkSpace\ECommerceOpenCart\Master.xml"
-2026-07-14 16:14:31.275 [main] INFO  testCases.TC_001_AccountRegistrationTest - TC001_AccountRegistrationTest: Test case started..
-2026-07-14 16:14:35.496 [main] INFO  testCases.TC_001_AccountRegistrationTest - TC001_AccountRegistrationTest: Test case Finished..
-2026-07-14 16:14:38.986 [main] INFO  testCases.TC_002_LoginTests - TC001_LoginTestWithValidData --- started
-2026-07-14 16:14:41.645 [main] INFO  testCases.TC_002_LoginTests - TC001_LoginTestWithValidData --- finished
-2026-07-14 16:53:25.926 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\WorkSpace\ECommerceOpenCart\Master.xml"
-2026-07-14 16:53:29.833 [main] INFO  testCases.TC_001_AccountRegistrationTest - TC001_AccountRegistrationTest: Test case started..
-2026-07-14 16:53:33.272 [main] INFO  testCases.TC_001_AccountRegistrationTest - TC001_AccountRegistrationTest: Test case Finished..
-2026-07-14 16:53:36.365 [main] INFO  testCases.TC_002_LoginTests - TC001_LoginTestWithValidData --- started
-2026-07-14 16:53:39.418 [main] INFO  testCases.TC_002_LoginTests - TC001_LoginTestWithValidData --- finished
+2026-07-21 16:25:04.169 [main] INFO  testCases.TC_001_AccountRegistrationTest - TC001_AccountRegistrationTest: Test case started..
+2026-07-21 16:25:09.290 [main] INFO  testCases.TC_001_AccountRegistrationTest - TC001_AccountRegistrationTest: Test case Finished..
+2026-07-21 16:25:12.741 [main] INFO  testCases.TC_002_LoginTests - TC001_LoginTestWithValidData --- started
+2026-07-21 16:25:16.285 [main] INFO  testCases.TC_002_LoginTests - TC001_LoginTestWithValidData --- finished

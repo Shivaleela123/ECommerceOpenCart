@@ -21,7 +21,7 @@ public class TC_001_AccountRegistrationTest extends BaseClass{
 	public void AccountRegistrationTest() {
 	
 		try {
-	  HomePage homepage = new HomePage(driver);
+	    HomePage homepage = new HomePage(driver);
 		logger.info("TC001_AccountRegistrationTest: Test case started..");
 
 		homepage.clickMyAccount();

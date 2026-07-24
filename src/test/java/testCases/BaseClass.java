@@ -36,7 +36,7 @@ public Properties prop;
 	@BeforeClass(groups = {"sanity","Regression", "Master"})
 	@Parameters({"OS", "browser"})
 	void setup(String os, String br) throws IOException {
-		
+		System.out.println("before each test");
 		FileReader file = new FileReader("./src//test//resources//config.properties");
 		prop=new Properties();
 		prop.load(file);

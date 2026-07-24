@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="utilities.ExtentReportManager"/>
-  </listeners>
-  <test thread-count="5" name="Test(failed)">
-    <parameter name="OS" value="mac"/>
-    <parameter name="browser" value="chrome"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC_002_LoginTests">
+      <class name="testCases.FailedTest">
         <methods>
-          <include name="setup"/>
-          <include name="TC001_LoginTestWithValidData"/>
-          <include name="tearDown"/>
+          <include name="fail2"/>
+          <include name="fail3"/>
+          <include name="fail1"/>
         </methods>
-      </class> <!-- testCases.TC_002_LoginTests -->
-      <class name="testCases.TC_001_AccountRegistrationTest">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="AccountRegistrationTest"/>
-        </methods>
-      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
+      </class> <!-- testCases.FailedTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
