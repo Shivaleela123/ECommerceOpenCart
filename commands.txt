@@ -1,0 +1,17 @@
+Install maven operating system level: To execute project outside eclipse, we use pom.xml file through cmd prompt.
+-----------------------------------------------------------------------------------------------------------------
+1. search download maven
+2. download binary zip archive 
+3. Configure the maven path in environmental path
+
+Executing projcet through command prompt:
+-----------------------------------------
+1. Navigate to project level
+2. mvn test
+
+Run project through run.bat file:
+---------------------------------
+1. Create run.bat excecutable file and add below path
+C:\WorkSpace\ECommerceOpenCart
+mvn test 
+2. Save and double click run.bat file.
